@@ -31,7 +31,7 @@ export default {
     data () {
         return {
           msg: 'Welcome to Your Vue.js App',
-            selected:'find',
+            selected:'user',
         }
     },
     methods:{

@@ -37,10 +37,10 @@ export default {
     methods:{
         routerFun(value){
             var routers = [];
-            routers[0] = "";
+            routers[0] = "/wbIndex";
             routers[1] = "/message";
             routers[2] = "";
-            routers[3] = "";
+            routers[3] = "/find";
             routers[4] = "/myinfo";
             this.$router.push({path:routers[value]});
         }

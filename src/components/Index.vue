@@ -7,7 +7,7 @@
             <mt-button  slot="right">设置</mt-button>
         </mt-header>
         <div style="margin-top: 15%;">
-            <router-link :class="indexA1" v-on:click.native="indexU(1)" to="/index">首页</router-link>
+            <router-link :class="indexA1" v-on:click.native="indexU(1)" to="/wbIndex">首页</router-link>
             <router-link :class="indexA2" v-on:click.native="indexU(2)" to="/message">消息</router-link>
             <router-link :class="indexA3" v-on:click.native="indexU(3)" to="/find">发现</router-link>
             <router-link :class="indexA4" v-on:click.native="indexU(4)" to="/myinfo">我</router-link>
@@ -78,14 +78,6 @@ export default {
         }
     },
     methods:{
-        routerFun(value){
-            var routers = [];
-            routers[1] = "/index";
-            routers[2] = "/message";
-            routers[3] = "/find";
-            routers[4] = "/myinfo";
-            this.$router.push({path:routers[value]});
-        },
         indexU(value){
             if(value==1){
                 this.indexA1 += ' is_Active';this.indexA2 = 'index_a';this.indexA3 = 'index_a';this.indexA4 = 'index_a';

@@ -7,6 +7,8 @@ import myInfo from '@/components/userinfo/myinfo.vue'
 import message from '@/components/message/message.vue'
 import wbIndex from '@/components/index/wbIndex.vue'
 import find from '@/components/find/find.vue'
+import login from '@/components/login.vue'
+import register from '@/components/register.vue'
 
 Vue.use(Router)
 
@@ -36,5 +38,15 @@ export default new Router({
                 },
             ],
         },
+        {
+            path: '/login',
+            name: 'login',
+            component: login,
+        },
+        {
+            path: '/register',
+            name: 'register',
+            component: register,
+        }
     ]
 })

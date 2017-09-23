@@ -13,7 +13,7 @@
             <router-link :class="indexA4" v-on:click.native="indexU(4)" to="/myinfo">我</router-link>
         </div>
 
-        <router-view style="clear: both;"></router-view>
+        <router-view style="clear: both;display: block"></router-view>
         <!--<mt-tabbar v-model="selected" fixed>
             <mt-tab-item id="index" >
                 <img slot="icon" @click="routerFun(0)" src="../assets/icon/index.png">

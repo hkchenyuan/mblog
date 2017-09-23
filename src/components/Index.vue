@@ -1,10 +1,12 @@
 <template>
     <div>
         <mt-header title="" fixed>
-            <router-link to="/" slot="left">
+            <router-link to="/register" slot="left">
                 <mt-button >添加好友</mt-button>
             </router-link>
-            <mt-button  slot="right">设置</mt-button>
+            <router-link to="/login" slot="right">
+                <mt-button>设置</mt-button>
+            </router-link>
         </mt-header>
         <div style="margin-top: 15%;">
             <router-link :class="indexA1" v-on:click.native="indexU(1)" to="/wbIndex">首页</router-link>

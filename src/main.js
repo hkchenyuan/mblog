@@ -9,8 +9,10 @@ import App from './App.vue'
 Vue.use(MintUI)
 Vue.config.productionTip = false
 
+
 import axios from 'axios'
 import VueAxios from 'vue-axios'
+axios.defaults.baseURL = 'http://127.0.0.1:8000';
 Vue.use(VueAxios, axios)
 /* eslint-disable no-new */
 new Vue({

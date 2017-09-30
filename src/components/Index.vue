@@ -93,8 +93,8 @@ export default {
         }
     },
     mounted(){
-        this.$router.push({path:'/myinfo'});
-        this.indexA4 += ' is_Active';
+        this.$router.push({path:'/message'});
+        this.indexA2 += ' is_Active';
     }
 }
 </script>

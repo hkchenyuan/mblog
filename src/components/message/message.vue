@@ -13,7 +13,7 @@
     export default{
         data(){
             return{
-                number:0,
+                number:null,
                 total:[]
             }
         },

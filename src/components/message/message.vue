@@ -22,7 +22,7 @@
                 this.axios.get('/test/list/'+this.number).then((response) => {
                     this.total = response.data;
                     if(response.data.length == 0){
-                       alert('婷婷，算不出来！')
+                       alert('LOVE婷婷1314，but算不出来!')
                     }
                 }).catch((error=>{
                     console.log(error)

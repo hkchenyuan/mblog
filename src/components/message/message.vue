@@ -1,6 +1,6 @@
 <template>
     <div>
-        <mt-field label="计算" placeholder="输入要计算的值" type="number" v-model="number"></mt-field>
+        <mt-field label="计算" placeholder="输入要计算的值" type="tel" v-model="number"></mt-field>
         <br>
         <mt-button size="large" type="primary" @click="getList">点我出结果</mt-button>
         <br>

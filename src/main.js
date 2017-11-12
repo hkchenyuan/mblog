@@ -12,7 +12,7 @@ Vue.config.productionTip = false
 
 import axios from 'axios'
 import VueAxios from 'vue-axios'
-axios.defaults.baseURL = 'http://47.94.18.102:8080';
+axios.defaults.baseURL = 'http://47.92.138.25:8080';
 Vue.use(VueAxios, axios)
 /* eslint-disable no-new */
 new Vue({

@@ -5,7 +5,7 @@
                 <mt-button >添加好友</mt-button>
             </router-link>
             <router-link to="/login" slot="right">
-                <mt-button>设置</mt-button>
+                <mt-button>彩蛋</mt-button>
             </router-link>
         </mt-header>
         <div style="margin-top: 15%;">

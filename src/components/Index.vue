@@ -9,7 +9,7 @@
             </router-link>
         </mt-header>
         <div style="margin-top: 15%;">
-            <router-link :class="indexA1" v-on:click.native="indexU(1)" to="/wbIndex">首页</router-link>
+            <router-link :class="indexA1" v-on:click.native="indexU(1)" to="/article">首页</router-link>
             <router-link :class="indexA2" v-on:click.native="indexU(2)" to="/message">消息</router-link>
             <router-link :class="indexA3" v-on:click.native="indexU(3)" to="/find">发现</router-link>
             <router-link :class="indexA4" v-on:click.native="indexU(4)" to="/myinfo">我</router-link>
@@ -50,9 +50,9 @@
         display: block;
         position: relative;
         float: left;
+        font-size: 16px;
     }
     .is_Active{
-        font-size: .9275rem;
         color: #ff8200;
     }
     .is_Active:before{

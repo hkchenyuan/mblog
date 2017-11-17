@@ -5,11 +5,11 @@ import Vue from 'vue'
 import MintUI from 'mint-ui'
 import 'mint-ui/lib/style.css'
 import App from './App.vue'
+import flexible from 'amfe-flexible'
 
 Vue.use(MintUI)
+Vue.use(flexible)
 Vue.config.productionTip = false
-
-
 import axios from 'axios'
 import VueAxios from 'vue-axios'
 axios.defaults.baseURL = 'http://test.youshikongjian.com';

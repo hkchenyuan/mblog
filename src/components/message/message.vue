@@ -5,7 +5,7 @@
         <mt-button size="large" type="primary" @click="getList">点我出结果</mt-button>
         <br>
         <br>
-        <mt-cell-swipe title="婷婷" v-for="item in total">{{item.type}}</mt-cell-swipe>
+        <mt-cell-swipe title="婷婷" v-for="(item,index) in total" :key="index">{{item.type}}</mt-cell-swipe>
 
     </div>
 </template>

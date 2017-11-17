@@ -5,7 +5,7 @@ import Index from '@/components/Index'
 //userinfo
 import myInfo from '@/components/userinfo/myinfo.vue'
 import message from '@/components/message/message.vue'
-import wbIndex from '@/components/index/wbIndex.vue'
+import article from '@/components/index/articles.vue'
 import find from '@/components/find/find.vue'
 import login from '@/components/login.vue'
 import register from '@/components/register.vue'
@@ -28,9 +28,9 @@ export default new Router({
                     name: 'message',
                     component: message,
                 }, {
-                    path: '/wbIndex',
-                    name: 'wbIndex',
-                    component: wbIndex,
+                    path: '/article',
+                    name: 'article',
+                    component: article,
                 }, {
                     path: '/find',
                     name: 'find',
